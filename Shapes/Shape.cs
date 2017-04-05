@@ -27,10 +27,19 @@ namespace Shapes
         }
 
         private Shape()
-        { Console.WriteLine("Private constr"); }
+        {
+            Console.WriteLine("Private constr");
+        }
 
         static Shape()
-        { Console.WriteLine("Static constr"); }
+        {
+            Console.WriteLine("Static constr");
+        }
+
+        public Shape Initialize()
+        {
+            return new Shape();
+        }
 
         public int A { get; private set; }
 

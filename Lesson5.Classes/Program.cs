@@ -20,8 +20,8 @@ namespace ConsoleApplication
 
             Shape.DrawPerfect();
 
-            var shape1 = Shape.Initialaze();
-            var shape2 = Shape.Initialaze();
+            var shape1 = Shape.Initialize();
+            var shape2 = Shape.Initialize();
 
             Console.ReadLine();
         }
