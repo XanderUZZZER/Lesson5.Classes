@@ -14,11 +14,11 @@ namespace Lesson5.Classes
 
             TimeSpan duration = new TimeSpan(1, 12, 23, 62);
 
-            string output = null;
-            output = "Time of Travel: " + duration.ToString("%d") + " days";
-            Console.WriteLine(output);
-            output = "Time of Travel: " + duration.ToString(@"dd\.hh\:mm\:ss");
-            Console.WriteLine(output);
+            string output12 = null;
+            output12 = "Time of Travel: " + duration.ToString("%d") + " days";
+            Console.WriteLine(output12);
+            output12 = "Time of Travel: " + duration.ToString(@"dd\.hh\:mm\:ss");
+            Console.WriteLine(output12);
 
             Console.WriteLine("Time of Travel: {0:%d} day(s)", duration);
             Console.WriteLine("Time of Travel: {0:dd\\.hh\\:mm\\:ss} days", duration);
