@@ -16,6 +16,7 @@ namespace Lesson5.Classes
 
             string output12 = null;
             output12 = "Time of Travel: " + duration.ToString("%d") + " days";
+            Console.WriteLine(DateTime.Now);
             Console.WriteLine(output12);
             output12 = "Time of Travel: " + duration.ToString(@"dd\.hh\:mm\:ss");
             Console.WriteLine(output12);
