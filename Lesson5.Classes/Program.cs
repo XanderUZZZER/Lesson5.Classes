@@ -17,14 +17,11 @@ namespace ConsoleApplication
         static void Main(string[] args)
         {
             Console.WriteLine("Lesson 5");
-            
-            Shape shape = new Shape();
-            shape.Draw();
 
-            Shape shape1 = new Shape(5, 8);
-            shape1.Draw();
+            Shape.DrawPerfect();
 
-            var triangle = new Triangle();
+            var shape1 = Shape.Initialaze();
+            var shape2 = Shape.Initialaze();
 
             Console.ReadLine();
         }
